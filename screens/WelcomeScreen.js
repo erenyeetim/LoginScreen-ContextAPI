@@ -10,7 +10,7 @@ function WelcomeScreen() {
   useEffect(() => {
     axios
       .get(
-        "https://react-native-course-edd63-default-rtdb.firebaseio.com/message.json?auth=" +
+        "URL" +
           token
       )
       .then((response) => {
